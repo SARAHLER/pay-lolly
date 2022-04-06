@@ -1,0 +1,250 @@
+body
+{
+    background-color: white;
+
+}
+.h1Title {
+    margin-top: 40px !important;
+}
+  .rectangle {
+    width: 10%;
+    height: 7px;
+    background-image:
+    linear-gradient(to right, #69d4ff, #00ff87);
+    align-self: center ;
+    margin-top: 20px;
+}
+.addTask{
+  width: 105px;
+    height: 55px;
+    background-image:
+     linear-gradient(to right, #69d4ff, #00ff87);
+    font-family: 'FbGofanSansBold';
+    font-size:88%;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+    border: 0;
+}
+.container {
+    min-height: 100vh;
+    height: 2500px;
+    position: relative;
+  }
+  
+  #file-upload-status {
+    direction: rtl;
+}
+
+.margin-mobile {
+    margin-top: 297px !important;
+}
+
+
+
+
+.nreq-content {
+    width: 601px;
+    height: 49px;
+    font-family: 'FbGofanSans';
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -30px !important;
+}
+
+.flex-container-nreq {
+    display: flex;
+    justify-content: center;
+}
+.editNewTask{
+    margin-top: 55px;
+    float:left;
+}
+.TaskDescription{
+    margin-top: 35px;
+    width: 35px !important;
+height: 30px;
+}
+
+.base-container-nreq-c {
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid;
+    border-image-source: linear-gradient(to right, #69d4ff, #00ff87);
+    border-image-slice: 1;
+
+}
+
+.btn-c-nreq {
+    text-align: right;
+    border: none;
+    background-color: white;
+    border: 1px solid;
+    padding-top: 20px !important;
+    padding-bottom: 20px;
+
+    margin-top: 10px;
+}
+
+
+
+  table {
+    border-collapse: collapse;
+}
+
+
+.base-container-reqs{
+   flex-direction: column;
+  width: 60%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid;
+    border-image-source: linear-gradient(to right, #69d4ff, #00ff87);
+    border-image-slice: 1;
+}
+ .title{
+     text-align: center;
+ }
+
+
+.ds-table{
+    text-align: center;
+    margin-right: auto;
+}
+
+.filter{
+    width: 40%;
+    height: 30px;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black;
+    align-self: center;
+    text-align: right;
+    
+  }
+  .btn_delete{
+      border: none;
+  }
+  .btn_edit{
+    border: none;
+
+  }
+.sort{
+    border: none;
+}
+.FaFilter{
+    margin-right: 25px;
+}
+.edit{
+    border: none !important;
+background: none;
+}
+
+
+
+.flex.justify-center {
+    justify-content: center;
+}
+
+
+.flex.column {
+    flex-direction: column;
+}
+
+.NewTask{
+    margin-top: 55px;
+    float:left;
+}
+.flex {
+    display: flex;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #e6e6e6;
+    margin-top: 20px;
+}
+
+
+.base-container-nreq {
+    width: 832px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid;
+    border-image-source: linear-gradient(to right, #69d4ff, #00ff87);
+    border-image-slice: 1;
+}
+
+ .base-container-nreq .flex-container-nrs {
+    margin-top: 115px;
+}
+.req-content {
+    width: 601px;
+    height: 49px;
+    font-family: 'FbGofanSans';
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.right-btn {
+    width: 133.4px;
+    height: 24px;
+    font-family: 'FbGofanSansRegular';
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+    align-self: flex-end;
+    width: 150px;
+    height: 65px;
+    border: 0;
+    background-color: white;
+    float: right;
+} 
+
+.left-btn {
+    width: 205px;
+    height: 65px;
+    background-image:
+        linear-gradient(to right, #69d4ff, #00ff87);
+    font-family: 'FbGofanSansBold';
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+    border: 0;
+} 
